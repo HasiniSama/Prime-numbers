@@ -11,7 +11,7 @@ int main(){
 
     while (r<=n){
         if (n%r==0){
-            fac=fac+1;
+            fac++;
         }
 
         r++;
